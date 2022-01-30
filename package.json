@@ -1,0 +1,32 @@
+{
+  "name": "ms-profile-node",
+  "version": "1.0.0",
+  "description": "MS profile as a alternate to CV",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mblogger/ms-profile-node.git"
+  },
+  "keywords": [
+    "profile",
+    "nodejs",
+    "express"
+  ],
+  "author": "mblogger <mohitblogger@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/mblogger/ms-profile-node/issues"
+  },
+  "homepage": "https://github.com/mblogger/ms-profile-node#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "react": "^17.0.2",
+    "node-json-db": "^1.4.1",
+    "express-hbs": "2.4.0",
+    "express-validator": "6.14.0"
+  },
+  "devDependencies": {}
+}
