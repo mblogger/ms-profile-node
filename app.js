@@ -5,15 +5,27 @@
 * upto date!
 */
 
+// External imports
 const express = require('express');
-var app = express();
+const { engine } = require('express-handlebars');
+
+// Internal imports
 var profile = require('./controllers/profile');
-// var router = express.Router();
 
-// router.get('/', function (req, res) {
-//    res.send('Welcome to home!'); 
-// });
+var app = express();
+app.engine('.hbs', engine(
+    {
+        extname: '.hbs',
+        defaultLayout: 'main',
+        layoutsDir: __dirname + '/views/layouts'
+    }
+));
+app.set('view engine', '.hbs');
+app.set('views', './views');
 
+app.use('/static', express.static(__dirname + '/views/assets'));
+
+// welcome home
 app.get('/', function (req, res) {
     res.send('Welcome to home!'); 
 });

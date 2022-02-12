@@ -1,0 +1,34 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+.home-img {
+  margin: auto;
+  width: fit-content;
+  &__image {
+    position: relative;
+  }
+}
+
+.otp-form {
+  margin: auto;
+  width: fit-content;
+  &__div {
+    font-style: $primary-color;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    &--p {
+      margin: auto;
+    }
+    &--otp {
+      display: block;
+    }
+    &--btn {
+      background-color: aquamarine;
+    }
+  }
+}

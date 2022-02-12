@@ -1,0 +1,31 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+
+.home-img {
+  margin: auto;
+  width: fit-content;
+}
+.home-img__image {
+  position: relative;
+}
+
+.otp-form {
+  margin: auto;
+  width: fit-content;
+}
+.otp-form__div {
+  font-style: #333;
+  font-family: "Courier New", Courier, monospace;
+  position: relative;
+}
+.otp-form__div--p {
+  margin: auto;
+}
+.otp-form__div--otp {
+  display: block;
+}
+.otp-form__div--btn {
+  background-color: aquamarine;
+}
