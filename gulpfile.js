@@ -6,6 +6,10 @@
 
 // Global imports
 var gulp = require('gulp');
+var babel = require('gulp-babel');
+var concat = require('gulp-concat');
+var uglify = require('gulp-uglify');
+var rename = require('gulp-rename');
 var cleanCSS = require('gulp-clean-css');
 var sass = require('gulp-sass')(require('sass'));
 

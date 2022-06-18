@@ -22,13 +22,24 @@
   },
   "homepage": "https://github.com/mblogger/ms-profile-node#readme",
   "dependencies": {
+    "@babel/core": "^7.17.2",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.8.0",
+    "@popperjs/core": "^2.11.2",
+    "bootstrap": "^5.1.3",
     "express": "^4.17.2",
-    "react": "^17.0.2",
-    "node-json-db": "^1.4.1",
     "express-handlebars": "6.0.2",
     "express-validator": "6.14.0",
+    "gulp-babel": "8.0.0",
+    "gulp-concat": "2.6.1",
+    "gulp-rename": "2.0.0",
     "gulp-sass": "5.1.0",
-    "sass": "1.49.7"
+    "gulp-uglify": "3.0.2",
+    "node-json-db": "^1.4.1",
+    "react": "^17.0.2",
+    "sass": "1.49.7",
+    "jquery": "3.6.0"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
